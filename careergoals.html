@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Steven Link - Career Goals</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Career Goals</h1>
+        <hr class="solid-line">
+    </header>
+    <nav id="nav-bar">
+        <ul>
+            <li><a href="resume.html">Résumé</a></li>
+            <li><a href="coverletter.html">Cover Letter</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2 class="card-header">About Me</h2>
+            <img src="images/me.jpg" alt="Photo of Steven Link" class="centerme">
+        </section>
+
+        <section>
+            <h2 class="card-header">My Career Goals</h2>
+            <div class="audio-player">
+              <audio controls>
+                <source src="audio/CareerGoals.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+            <p class="margin">This audio clip outlines my career goals in IT and network engineering.</p>
+        </section>
+
+        <section>
+            <h2 class="card-header">Basic Networking Demonstration</h2>
+            <video controls class="center">
+                <source src="videos/BasicSwitchCommands.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+            <p class="margin">This short video demonstrates basic switch commands and networking principles.</p>
+        </section>
+
+        <section>
+            <h2 class="card-header">Contact Me</h2>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <p><label>First Name: <input type="text" name="firstName" required></label></p>
+                <p><label>Last Name: <input type="text" name="lastName" required></label></p>
+                <p><label>Company Name: <input type="text" name="company" required></label></p>
+                <p><label>Email: <input type="email" name="email" required></label></p>
+                <p><label>Phone: <input type="tel" name="phone" required></label></p>
+                <p><label>Message: <textarea name="message" required></textarea></label></p>
+
+                <p>Best Time to Contact:</p>
+                <p><label><input type="radio" name="contactTime" value="am"> a.m.</label>
+                <label><input type="radio" name="contactTime" value="pm"> p.m.</label>
+                <label><input type="radio" name="contactTime" value="anytime" checked> Anytime</label></p>
+
+                <p><label>Preferred Contact Method:
+                    <p><select name="preferredContact">
+                        <option value="phone">Phone</option>
+                        <option value="email">Email</option>
+                        <option value="text">Text</option>
+                    </select></label>
+                </label></p>
+
+                <p><button type="submit">Submit</button></p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Steven Link 2025</p>
+    </footer>
+</body>
+</html>
